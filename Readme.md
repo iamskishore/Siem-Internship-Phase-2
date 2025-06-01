@@ -21,3 +21,10 @@
 4. [Abnormal User Behavior](<Siem-Internship-Phase-2/writeups/Use Case 4 Abnormal User Behavior/detection.md>)
 
 5. [Command & Control (c2) - Beaconing Detection](<Siem-Internship-Phase-2/writeups/Use Case 5 Command & Control (c2) - Beaconing Detection/detection.md>)
+
+## Learning Outcomes
+
+-  Correlate events across multiple system
+-  Detection and investigate attacker behavior post-login
+-  Build and document detection logic using real data
+-  Improve SIEM rule tuning and false positive analysis.
