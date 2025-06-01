@@ -11,3 +11,13 @@
 - Elastic Agent 
 
 ## Use Cases
+
+1. [Privilege Escalation Attempt](<writeups/Use Case 1 Privilege Escalation Attempt/detection.md >)
+
+2. [Lateral Movement via PsExec](<writeups/Use Case 2 Lateral Movement via PsExec/detection.md >)
+
+3. [Suspicious File Download & Execution](<writeups/Use Case 3 Suspicious File Download & Execution/detection.md >)
+
+4. [Abnormal User Behavior](<Siem-Internship-Phase-2/writeups/Use Case 4 Abnormal User Behavior/detection.md>)
+
+5. [Command & Control (c2) - Beaconing Detection](<Siem-Internship-Phase-2/writeups/Use Case 5 Command & Control (c2) - Beaconing Detection/detection.md>)

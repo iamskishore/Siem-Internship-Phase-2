@@ -40,4 +40,12 @@ event.code : ("4720" or "4728" or "4672") and
 
 ## Logs or Sample Event
 
+```powershell
+timestamp,event_id,command_line,image,user,destination_ip
+2025-05-31T13:23:45.573Z,1,"net localgroup administrators backdoor /add",C:\\Windows\\System32\\net.exe,backdoor,172.31.32.205
+```
 ## Detection Status
+
+ - **4720**: Detects user account creation (possible rogue user)
+- **4728**: Detects user added to a privileged group
+- **4672**: Detects logons with **high-privilege rights** (often during or after escalation)

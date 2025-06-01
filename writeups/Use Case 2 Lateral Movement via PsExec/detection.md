@@ -18,6 +18,8 @@ destination.port: 445 and
 
 ## Sample Alert Screenshot
 
+![later](../../screenshots/lateral.png)
+
 ## Logs or Sample Event
 
 ```powershell
@@ -25,3 +27,9 @@ event_id,image,destination_ip,destination_port,command_line
 3,C:\Windows\System32\psexec.exe,172.31.32.205,80,"psexec.exe \\54.83.141.170 -u Administrator -p cmd.exe
 ```
 ## Detection Status
+
+ - **Tested** with Sysmon, Elastic Agent, and simulated PsExec usage via `cmd.exe`
+- **Confirmed** alerts on:
+    - `PSEXESVC.exe` execution
+    - Port 445 connection from PsExec
+    - New service created (Event 7045)

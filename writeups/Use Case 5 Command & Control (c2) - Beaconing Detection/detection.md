@@ -32,3 +32,7 @@ event_id,image,source_ip,destination_ip,destination_port,protocol,timestamp
 
 
 ## Detection Status
+
+-  Lab-tested with simulated curl + http-ping activity every 60 seconds
+-  Correlation tested with destination repetition + time interval
+-  Requires tuning in production to reduce false positives from legitimate cron jobs or health checks

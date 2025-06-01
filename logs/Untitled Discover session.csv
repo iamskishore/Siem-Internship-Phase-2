@@ -1,0 +1,253 @@
+"@timestamp","_id","_ignored","_index","_score","agent.ephemeral_id","agent.id","agent.name","agent.name.text","agent.type","agent.version","cloud.account.id","cloud.availability_zone","cloud.image.id","cloud.instance.id","cloud.machine.type","cloud.provider","cloud.region","cloud.service.name","cloud.service.name.text","data_stream.dataset","data_stream.namespace","data_stream.type","ecs.version","elastic_agent.id","elastic_agent.snapshot","elastic_agent.version","event.action","event.agent_id_status","event.category","event.code","event.created","event.dataset","event.ingested","event.kind","event.module","event.provider","event.type","host.architecture","host.hostname","host.id","host.ip","host.mac","host.name","host.os.build","host.os.family","host.os.kernel","host.os.name","host.os.name.text","host.os.platform","host.os.type","host.os.version","input.type","kibana.alert.ancestors.depth","kibana.alert.ancestors.id","kibana.alert.ancestors.index","kibana.alert.ancestors.type","kibana.alert.depth","kibana.alert.intended_timestamp","kibana.alert.last_detected","kibana.alert.original_event.action","kibana.alert.original_event.agent_id_status","kibana.alert.original_event.category","kibana.alert.original_event.code","kibana.alert.original_event.created","kibana.alert.original_event.dataset","kibana.alert.original_event.ingested","kibana.alert.original_event.kind","kibana.alert.original_event.module","kibana.alert.original_event.provider","kibana.alert.original_event.type","kibana.alert.original_time","kibana.alert.reason","kibana.alert.reason.text","kibana.alert.risk_score","kibana.alert.rule.category","kibana.alert.rule.consumer","kibana.alert.rule.created_at","kibana.alert.rule.created_by","kibana.alert.rule.description","kibana.alert.rule.enabled","kibana.alert.rule.execution.timestamp","kibana.alert.rule.execution.type","kibana.alert.rule.execution.uuid","kibana.alert.rule.from","kibana.alert.rule.immutable","kibana.alert.rule.indices","kibana.alert.rule.interval","kibana.alert.rule.license","kibana.alert.rule.max_signals","kibana.alert.rule.meta.kibana_siem_app_url","kibana.alert.rule.name","kibana.alert.rule.parameters","kibana.alert.rule.producer","kibana.alert.rule.revision","kibana.alert.rule.risk_score","kibana.alert.rule.rule_id","kibana.alert.rule.rule_type_id","kibana.alert.rule.severity","kibana.alert.rule.to","kibana.alert.rule.type","kibana.alert.rule.updated_at","kibana.alert.rule.updated_by","kibana.alert.rule.uuid","kibana.alert.rule.version","kibana.alert.severity","kibana.alert.start","kibana.alert.status","kibana.alert.url","kibana.alert.uuid","kibana.alert.workflow_status","kibana.space_ids","kibana.version","log.level",message,"process.args","process.args_count","process.command_line","process.command_line.text","process.entity_id","process.executable","process.executable.caseless","process.executable.text","process.hash.sha256","process.name","process.name.caseless","process.name.text","process.parent.args","process.parent.args_count","process.parent.command_line","process.parent.command_line.text","process.parent.entity_id","process.parent.executable","process.parent.executable.text","process.parent.name","process.parent.name.text","process.parent.pid","process.pe.company","process.pe.description","process.pe.file_version","process.pe.original_file_name","process.pe.product","process.pid","process.working_directory","process.working_directory.text","related.hash","related.user","signal.ancestors.depth","signal.ancestors.id","signal.ancestors.index","signal.ancestors.type","signal.depth","signal.original_event.action","signal.original_event.category","signal.original_event.code","signal.original_event.created","signal.original_event.dataset","signal.original_event.kind","signal.original_event.module","signal.original_event.provider","signal.original_event.type","signal.original_time","signal.reason","signal.rule.created_at","signal.rule.created_by","signal.rule.description","signal.rule.enabled","signal.rule.from","signal.rule.id","signal.rule.immutable","signal.rule.interval","signal.rule.license","signal.rule.max_signals","signal.rule.name","signal.rule.risk_score","signal.rule.rule_id","signal.rule.severity","signal.rule.to","signal.rule.type","signal.rule.updated_at","signal.rule.updated_by","signal.rule.version","signal.status","user.domain","user.id","user.name","user.name.text","winlog.channel","winlog.computer_name","winlog.event_data.Company","winlog.event_data.Description","winlog.event_data.FileVersion","winlog.event_data.IntegrityLevel","winlog.event_data.LogonGuid","winlog.event_data.LogonId","winlog.event_data.ParentUser","winlog.event_data.Product","winlog.event_data.TerminalSessionId","winlog.event_id","winlog.opcode","winlog.process.pid","winlog.process.thread.id","winlog.provider_guid","winlog.provider_name","winlog.record_id","winlog.task","winlog.user.domain","winlog.user.identifier","winlog.user.name","winlog.user.type","winlog.version"
+"Jun 1, 2025 @ 12:00:10.079",737ef7ebc01b53cbd3a69a58690de01a05890b4b88f1c9c97d5a4e2ed31d179e,"-",".internal.alerts-security.alerts-default-000001","-","4e7a5236-77b4-42da-b966-a9756994e8ab","6a9b5271-0dd4-4d56-b783-dbc66c69a633","EC2AMAZ-DNAD815","-",filebeat,"9.0.1",017934462408,"us-east-1c","ami-0db3480be03d8d01c","i-0ec62b6894849ab6e","t2.micro",aws,"us-east-1",EC2,"-","windows.sysmon_operational",default,logs,"8.17.0","6a9b5271-0dd4-4d56-b783-dbc66c69a633",false,"9.0.1","Process terminated",verified,process,5,"Jun 1, 2025 @ 11:59:50.376","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",signal,windows,"Microsoft-Windows-Sysmon",end,"x86_64","EC2AMAZ-DNAD815","d31d9cb5-cf99-40b5-9e61-5ba44c93679a","fe80::7352:58a:a327:2047, 172.31.80.232","12-04-9E-9F-7F-A9","ec2amaz-dnad815","20348.3692",windows,"10.0.20348.3692 (WinBuild.160101.0800)","Windows Server 2022 Datacenter","Windows Server 2022 Datacenter",windows,windows,"10.0",winlog,0,AZcqLqaiBflWXAvE2D1U,".ds-logs-windows.sysmon_operational-default-2025.05.24-000001",event,1,"Jun 1, 2025 @ 12:00:10.079","Jun 1, 2025 @ 12:00:10.111","Process terminated",verified,process,5,"Jun 1, 2025 @ 11:59:50.376","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",event,windows,"Microsoft-Windows-Sysmon",end,"Jun 1, 2025 @ 11:59:49.416","process event with process curl.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.","process event with process curl.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.",73,"Custom Query Rule",siem,"Jun 1, 2025 @ 11:58:07.933",elastic,"acess suspicious network share",true,"Jun 1, 2025 @ 12:00:10.111",scheduled,"65da9a52-8b7f-4fbb-ae1e-6dd7676cbc21","now-3m",false,"apm-*-transaction*, auditbeat-*, endgame-*, filebeat-*, logs-*, packetbeat-*, traces-apm*, winlogbeat-*, -*elastic-cloud-logs-*",2m,"(empty)",100,"https://sime.kb.us-central1.gcp.cloud.es.io/app/security","Lateral Movement Via SMB or PSExec","{
+  ""severity"": ""high"",
+  ""max_signals"": 100,
+  ""rule_source"": {
+    ""type"": ""internal""
+  },
+  ""risk_score"": 73,
+  ""query"": ""process.name : \""curl.exe\"" "",
+  ""description"": ""acess suspicious network share"",
+  ""index"": [
+    ""apm-*-transaction*"",
+    ""auditbeat-*"",
+    ""endgame-*"",
+    ""filebeat-*"",
+    ""logs-*"",
+    ""packetbeat-*"",
+    ""traces-apm*"",
+    ""winlogbeat-*"",
+    ""-*elastic-cloud-logs-*""
+  ],
+  ""language"": ""kuery"",
+  ""type"": ""query"",
+  ""version"": 1,
+  ""rule_id"": ""9486f517-2c57-42f6-bab6-112fc545e41c"",
+  ""license"": """",
+  ""immutable"": false,
+  ""meta"": {
+    ""kibana_siem_app_url"": ""https://sime.kb.us-central1.gcp.cloud.es.io/app/security""
+  },
+  ""setup"": """",
+  ""from"": ""now-3m"",
+  ""to"": ""now""
+}",siem,0,73,"9486f517-2c57-42f6-bab6-112fc545e41c","siem.queryRule",high,now,query,"Jun 1, 2025 @ 11:58:07.933",elastic,"3eb0b84c-ae7f-4243-99fa-90aa7de3243b",1,high,"Jun 1, 2025 @ 12:00:10.111",active,"https://sime.kb.us-central1.gcp.cloud.es.io/app/security/alerts/redirect/737ef7ebc01b53cbd3a69a58690de01a05890b4b88f1c9c97d5a4e2ed31d179e?index=.alerts-security.alerts-default&timestamp=2025-06-01T06:30:10.079Z",737ef7ebc01b53cbd3a69a58690de01a05890b4b88f1c9c97d5a4e2ed31d179e,open,default,"9.0.1",information,"Process terminated:
+RuleName: -
+UtcTime: 2025-06-01 06:29:49.416
+ProcessGuid: {D31D9CB5-F35C-683B-1E05-000000001C02}
+ProcessId: 4816
+Image: C:\Windows\System32\curl.exe
+User: EC2AMAZ-DNAD815\Administrator","-","-","-","-","{D31D9CB5-F35C-683B-1E05-000000001C02}","C:\Windows\System32\curl.exe","-","C:\Windows\System32\curl.exe","-","curl.exe","-","curl.exe","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","4,816","-","-","-",Administrator,0,AZcqLqaiBflWXAvE2D1U,".ds-logs-windows.sysmon_operational-default-2025.05.24-000001",event,1,"Process terminated",process,5,"Jun 1, 2025 @ 11:59:50.376","windows.sysmon_operational",event,windows,"Microsoft-Windows-Sysmon",end,"Jun 1, 2025 @ 11:59:49.416","process event with process curl.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.","Jun 1, 2025 @ 11:58:07.933",elastic,"acess suspicious network share",true,"now-3m","3eb0b84c-ae7f-4243-99fa-90aa7de3243b",false,2m,"(empty)",100,"Lateral Movement Via SMB or PSExec",73,"9486f517-2c57-42f6-bab6-112fc545e41c",high,now,query,"Jun 1, 2025 @ 11:58:07.933",elastic,1,open,"EC2AMAZ-DNAD815","S-1-5-18",Administrator,Administrator,"Microsoft-Windows-Sysmon/Operational","EC2AMAZ-DNAD815","-","-","-","-","-","-","-","-","-",5,Info,"5,484","5,908","{5770385F-C22A-43E0-BF4C-06F5698FFBD9}","Microsoft-Windows-Sysmon",32394,"Process terminated (rule: ProcessTerminate)","NT AUTHORITY","S-1-5-18",SYSTEM,User,3
+"Jun 1, 2025 @ 12:00:10.077",114e4831f90a00198e235786820f9c2879ebc7607711d6663c6b9a19215aec76,"-",".internal.alerts-security.alerts-default-000001","-","4e7a5236-77b4-42da-b966-a9756994e8ab","6a9b5271-0dd4-4d56-b783-dbc66c69a633","EC2AMAZ-DNAD815","-",filebeat,"9.0.1",017934462408,"us-east-1c","ami-0db3480be03d8d01c","i-0ec62b6894849ab6e","t2.micro",aws,"us-east-1",EC2,"-","windows.sysmon_operational",default,logs,"8.17.0","6a9b5271-0dd4-4d56-b783-dbc66c69a633",false,"9.0.1","Process terminated",verified,process,5,"Jun 1, 2025 @ 11:59:50.365","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",signal,windows,"Microsoft-Windows-Sysmon",end,"x86_64","EC2AMAZ-DNAD815","d31d9cb5-cf99-40b5-9e61-5ba44c93679a","fe80::7352:58a:a327:2047, 172.31.80.232","12-04-9E-9F-7F-A9","ec2amaz-dnad815","20348.3692",windows,"10.0.20348.3692 (WinBuild.160101.0800)","Windows Server 2022 Datacenter","Windows Server 2022 Datacenter",windows,windows,"10.0",winlog,0,AZcqLqaiBflWXAvE2D1R,".ds-logs-windows.sysmon_operational-default-2025.05.24-000001",event,1,"Jun 1, 2025 @ 12:00:10.077","Jun 1, 2025 @ 12:00:10.111","Process terminated",verified,process,5,"Jun 1, 2025 @ 11:59:50.365","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",event,windows,"Microsoft-Windows-Sysmon",end,"Jun 1, 2025 @ 11:59:49.416","process event with process curl.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.","process event with process curl.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.",73,"Custom Query Rule",siem,"Jun 1, 2025 @ 11:58:07.933",elastic,"acess suspicious network share",true,"Jun 1, 2025 @ 12:00:10.111",scheduled,"65da9a52-8b7f-4fbb-ae1e-6dd7676cbc21","now-3m",false,"apm-*-transaction*, auditbeat-*, endgame-*, filebeat-*, logs-*, packetbeat-*, traces-apm*, winlogbeat-*, -*elastic-cloud-logs-*",2m,"(empty)",100,"https://sime.kb.us-central1.gcp.cloud.es.io/app/security","Lateral Movement Via SMB or PSExec","{
+  ""severity"": ""high"",
+  ""max_signals"": 100,
+  ""rule_source"": {
+    ""type"": ""internal""
+  },
+  ""risk_score"": 73,
+  ""query"": ""process.name : \""curl.exe\"" "",
+  ""description"": ""acess suspicious network share"",
+  ""index"": [
+    ""apm-*-transaction*"",
+    ""auditbeat-*"",
+    ""endgame-*"",
+    ""filebeat-*"",
+    ""logs-*"",
+    ""packetbeat-*"",
+    ""traces-apm*"",
+    ""winlogbeat-*"",
+    ""-*elastic-cloud-logs-*""
+  ],
+  ""language"": ""kuery"",
+  ""type"": ""query"",
+  ""version"": 1,
+  ""rule_id"": ""9486f517-2c57-42f6-bab6-112fc545e41c"",
+  ""license"": """",
+  ""immutable"": false,
+  ""meta"": {
+    ""kibana_siem_app_url"": ""https://sime.kb.us-central1.gcp.cloud.es.io/app/security""
+  },
+  ""setup"": """",
+  ""from"": ""now-3m"",
+  ""to"": ""now""
+}",siem,0,73,"9486f517-2c57-42f6-bab6-112fc545e41c","siem.queryRule",high,now,query,"Jun 1, 2025 @ 11:58:07.933",elastic,"3eb0b84c-ae7f-4243-99fa-90aa7de3243b",1,high,"Jun 1, 2025 @ 12:00:10.111",active,"https://sime.kb.us-central1.gcp.cloud.es.io/app/security/alerts/redirect/114e4831f90a00198e235786820f9c2879ebc7607711d6663c6b9a19215aec76?index=.alerts-security.alerts-default&timestamp=2025-06-01T06:30:10.077Z",114e4831f90a00198e235786820f9c2879ebc7607711d6663c6b9a19215aec76,open,default,"9.0.1",information,"Process terminated:
+RuleName: -
+UtcTime: 2025-06-01 06:29:49.416
+ProcessGuid: {D31D9CB5-F35C-683B-1E05-000000001C02}
+ProcessId: 4816
+Image: C:\Windows\System32\curl.exe
+User: EC2AMAZ-DNAD815\Administrator","-","-","-","-","{D31D9CB5-F35C-683B-1E05-000000001C02}","C:\Windows\System32\curl.exe","-","C:\Windows\System32\curl.exe","-","curl.exe","-","curl.exe","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","4,816","-","-","-",Administrator,0,AZcqLqaiBflWXAvE2D1R,".ds-logs-windows.sysmon_operational-default-2025.05.24-000001",event,1,"Process terminated",process,5,"Jun 1, 2025 @ 11:59:50.365","windows.sysmon_operational",event,windows,"Microsoft-Windows-Sysmon",end,"Jun 1, 2025 @ 11:59:49.416","process event with process curl.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.","Jun 1, 2025 @ 11:58:07.933",elastic,"acess suspicious network share",true,"now-3m","3eb0b84c-ae7f-4243-99fa-90aa7de3243b",false,2m,"(empty)",100,"Lateral Movement Via SMB or PSExec",73,"9486f517-2c57-42f6-bab6-112fc545e41c",high,now,query,"Jun 1, 2025 @ 11:58:07.933",elastic,1,open,"EC2AMAZ-DNAD815","S-1-5-18",Administrator,Administrator,"Microsoft-Windows-Sysmon/Operational","EC2AMAZ-DNAD815","-","-","-","-","-","-","-","-","-",5,Info,"5,484","5,908","{5770385F-C22A-43E0-BF4C-06F5698FFBD9}","Microsoft-Windows-Sysmon",32394,"Process terminated (rule: ProcessTerminate)","NT AUTHORITY","S-1-5-18",SYSTEM,User,3
+"Jun 1, 2025 @ 12:00:10.075",967e57b9bb6ea04a3028d372d0a666cc784dae40405253d7c4781fd887c7a280,"-",".internal.alerts-security.alerts-default-000001","-","4e7a5236-77b4-42da-b966-a9756994e8ab","6a9b5271-0dd4-4d56-b783-dbc66c69a633","EC2AMAZ-DNAD815","-",filebeat,"9.0.1",017934462408,"us-east-1c","ami-0db3480be03d8d01c","i-0ec62b6894849ab6e","t2.micro",aws,"us-east-1",EC2,"-","windows.sysmon_operational",default,logs,"8.17.0","6a9b5271-0dd4-4d56-b783-dbc66c69a633",false,"9.0.1","Process creation",verified,process,1,"Jun 1, 2025 @ 11:59:50.375","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",signal,windows,"Microsoft-Windows-Sysmon",start,"x86_64","EC2AMAZ-DNAD815","d31d9cb5-cf99-40b5-9e61-5ba44c93679a","fe80::7352:58a:a327:2047, 172.31.80.232","12-04-9E-9F-7F-A9","ec2amaz-dnad815","20348.3692",windows,"10.0.20348.3692 (WinBuild.160101.0800)","Windows Server 2022 Datacenter","Windows Server 2022 Datacenter",windows,windows,"10.0",winlog,0,AZcqLqaiBflWXAvE2D1T,".ds-logs-windows.sysmon_operational-default-2025.05.24-000001",event,1,"Jun 1, 2025 @ 12:00:10.075","Jun 1, 2025 @ 12:00:10.111","Process creation",verified,process,1,"Jun 1, 2025 @ 11:59:50.375","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",event,windows,"Microsoft-Windows-Sysmon",start,"Jun 1, 2025 @ 11:59:48.648","process event with process curl.exe, parent process cmd.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.","process event with process curl.exe, parent process cmd.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.",73,"Custom Query Rule",siem,"Jun 1, 2025 @ 11:58:07.933",elastic,"acess suspicious network share",true,"Jun 1, 2025 @ 12:00:10.111",scheduled,"65da9a52-8b7f-4fbb-ae1e-6dd7676cbc21","now-3m",false,"apm-*-transaction*, auditbeat-*, endgame-*, filebeat-*, logs-*, packetbeat-*, traces-apm*, winlogbeat-*, -*elastic-cloud-logs-*",2m,"(empty)",100,"https://sime.kb.us-central1.gcp.cloud.es.io/app/security","Lateral Movement Via SMB or PSExec","{
+  ""severity"": ""high"",
+  ""max_signals"": 100,
+  ""rule_source"": {
+    ""type"": ""internal""
+  },
+  ""risk_score"": 73,
+  ""query"": ""process.name : \""curl.exe\"" "",
+  ""description"": ""acess suspicious network share"",
+  ""index"": [
+    ""apm-*-transaction*"",
+    ""auditbeat-*"",
+    ""endgame-*"",
+    ""filebeat-*"",
+    ""logs-*"",
+    ""packetbeat-*"",
+    ""traces-apm*"",
+    ""winlogbeat-*"",
+    ""-*elastic-cloud-logs-*""
+  ],
+  ""language"": ""kuery"",
+  ""type"": ""query"",
+  ""version"": 1,
+  ""rule_id"": ""9486f517-2c57-42f6-bab6-112fc545e41c"",
+  ""license"": """",
+  ""immutable"": false,
+  ""meta"": {
+    ""kibana_siem_app_url"": ""https://sime.kb.us-central1.gcp.cloud.es.io/app/security""
+  },
+  ""setup"": """",
+  ""from"": ""now-3m"",
+  ""to"": ""now""
+}",siem,0,73,"9486f517-2c57-42f6-bab6-112fc545e41c","siem.queryRule",high,now,query,"Jun 1, 2025 @ 11:58:07.933",elastic,"3eb0b84c-ae7f-4243-99fa-90aa7de3243b",1,high,"Jun 1, 2025 @ 12:00:10.111",active,"https://sime.kb.us-central1.gcp.cloud.es.io/app/security/alerts/redirect/967e57b9bb6ea04a3028d372d0a666cc784dae40405253d7c4781fd887c7a280?index=.alerts-security.alerts-default&timestamp=2025-06-01T06:30:10.075Z",967e57b9bb6ea04a3028d372d0a666cc784dae40405253d7c4781fd887c7a280,open,default,"9.0.1",information,"Process Create:
+RuleName: -
+UtcTime: 2025-06-01 06:29:48.648
+ProcessGuid: {D31D9CB5-F35C-683B-1E05-000000001C02}
+ProcessId: 4816
+Image: C:\Windows\System32\curl.exe
+FileVersion: 8.9.1
+Description: The curl executable
+Product: The curl executable
+Company: curl, https://curl.se/
+OriginalFileName: curl.exe
+CommandLine: curl  http://attacker.com
+CurrentDirectory: C:\Users\Administrator\Downloads\PSTools\
+User: EC2AMAZ-DNAD815\Administrator
+LogonGuid: {D31D9CB5-AD53-683A-879B-070000000000}
+LogonId: 0x79b87
+TerminalSessionId: 2
+IntegrityLevel: High
+Hashes: SHA256=8B39C07EC671DAFB125BDC0E5FD4D51BC4A7D73E505C63C95F976698BBBD5699
+ParentProcessGuid: {D31D9CB5-F32B-683B-1B05-000000001C02}
+ParentProcessId: 3796
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: cmd.exe
+ParentUser: EC2AMAZ-DNAD815\Administrator","curl, http://attacker.com",2,"curl  http://attacker.com","curl  http://attacker.com","{D31D9CB5-F35C-683B-1E05-000000001C02}","C:\Windows\System32\curl.exe","-","C:\Windows\System32\curl.exe",8b39c07ec671dafb125bdc0e5fd4d51bc4a7d73e505c63c95f976698bbbd5699,"curl.exe","-","curl.exe","cmd.exe",1,"cmd.exe","cmd.exe","{D31D9CB5-F32B-683B-1B05-000000001C02}","C:\Windows\System32\cmd.exe","C:\Windows\System32\cmd.exe","cmd.exe","cmd.exe","3,796","curl, https://curl.se/","The curl executable","8.9.1","curl.exe","The curl executable","4,816","C:\Users\Administrator\Downloads\PSTools\","C:\Users\Administrator\Downloads\PSTools\",8b39c07ec671dafb125bdc0e5fd4d51bc4a7d73e505c63c95f976698bbbd5699,Administrator,0,AZcqLqaiBflWXAvE2D1T,".ds-logs-windows.sysmon_operational-default-2025.05.24-000001",event,1,"Process creation",process,1,"Jun 1, 2025 @ 11:59:50.375","windows.sysmon_operational",event,windows,"Microsoft-Windows-Sysmon",start,"Jun 1, 2025 @ 11:59:48.648","process event with process curl.exe, parent process cmd.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.","Jun 1, 2025 @ 11:58:07.933",elastic,"acess suspicious network share",true,"now-3m","3eb0b84c-ae7f-4243-99fa-90aa7de3243b",false,2m,"(empty)",100,"Lateral Movement Via SMB or PSExec",73,"9486f517-2c57-42f6-bab6-112fc545e41c",high,now,query,"Jun 1, 2025 @ 11:58:07.933",elastic,1,open,"EC2AMAZ-DNAD815","S-1-5-18",Administrator,Administrator,"Microsoft-Windows-Sysmon/Operational","EC2AMAZ-DNAD815","curl, https://curl.se/","The curl executable","8.9.1",High,"{D31D9CB5-AD53-683A-879B-070000000000}",0x79b87,"EC2AMAZ-DNAD815\Administrator","The curl executable",2,1,Info,"5,484","5,908","{5770385F-C22A-43E0-BF4C-06F5698FFBD9}","Microsoft-Windows-Sysmon",32393,"Process Create (rule: ProcessCreate)","NT AUTHORITY","S-1-5-18",SYSTEM,User,5
+"Jun 1, 2025 @ 12:00:10.068",ce1c3948540023332a82858710644cdb59952a0528548e4cacf61aca850756a5,"-",".internal.alerts-security.alerts-default-000001","-","4e7a5236-77b4-42da-b966-a9756994e8ab","6a9b5271-0dd4-4d56-b783-dbc66c69a633","EC2AMAZ-DNAD815","-",filebeat,"9.0.1",017934462408,"us-east-1c","ami-0db3480be03d8d01c","i-0ec62b6894849ab6e","t2.micro",aws,"us-east-1",EC2,"-","windows.sysmon_operational",default,logs,"8.17.0","6a9b5271-0dd4-4d56-b783-dbc66c69a633",false,"9.0.1","Process creation",verified,process,1,"Jun 1, 2025 @ 11:59:50.362","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",signal,windows,"Microsoft-Windows-Sysmon",start,"x86_64","EC2AMAZ-DNAD815","d31d9cb5-cf99-40b5-9e61-5ba44c93679a","fe80::7352:58a:a327:2047, 172.31.80.232","12-04-9E-9F-7F-A9","ec2amaz-dnad815","20348.3692",windows,"10.0.20348.3692 (WinBuild.160101.0800)","Windows Server 2022 Datacenter","Windows Server 2022 Datacenter",windows,windows,"10.0",winlog,0,AZcqLqaiBflWXAvE2D1Q,".ds-logs-windows.sysmon_operational-default-2025.05.24-000001",event,1,"Jun 1, 2025 @ 12:00:10.068","Jun 1, 2025 @ 12:00:10.111","Process creation",verified,process,1,"Jun 1, 2025 @ 11:59:50.362","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",event,windows,"Microsoft-Windows-Sysmon",start,"Jun 1, 2025 @ 11:59:48.648","process event with process curl.exe, parent process cmd.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.","process event with process curl.exe, parent process cmd.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.",73,"Custom Query Rule",siem,"Jun 1, 2025 @ 11:58:07.933",elastic,"acess suspicious network share",true,"Jun 1, 2025 @ 12:00:10.111",scheduled,"65da9a52-8b7f-4fbb-ae1e-6dd7676cbc21","now-3m",false,"apm-*-transaction*, auditbeat-*, endgame-*, filebeat-*, logs-*, packetbeat-*, traces-apm*, winlogbeat-*, -*elastic-cloud-logs-*",2m,"(empty)",100,"https://sime.kb.us-central1.gcp.cloud.es.io/app/security","Lateral Movement Via SMB or PSExec","{
+  ""severity"": ""high"",
+  ""max_signals"": 100,
+  ""rule_source"": {
+    ""type"": ""internal""
+  },
+  ""risk_score"": 73,
+  ""query"": ""process.name : \""curl.exe\"" "",
+  ""description"": ""acess suspicious network share"",
+  ""index"": [
+    ""apm-*-transaction*"",
+    ""auditbeat-*"",
+    ""endgame-*"",
+    ""filebeat-*"",
+    ""logs-*"",
+    ""packetbeat-*"",
+    ""traces-apm*"",
+    ""winlogbeat-*"",
+    ""-*elastic-cloud-logs-*""
+  ],
+  ""language"": ""kuery"",
+  ""type"": ""query"",
+  ""version"": 1,
+  ""rule_id"": ""9486f517-2c57-42f6-bab6-112fc545e41c"",
+  ""license"": """",
+  ""immutable"": false,
+  ""meta"": {
+    ""kibana_siem_app_url"": ""https://sime.kb.us-central1.gcp.cloud.es.io/app/security""
+  },
+  ""setup"": """",
+  ""from"": ""now-3m"",
+  ""to"": ""now""
+}",siem,0,73,"9486f517-2c57-42f6-bab6-112fc545e41c","siem.queryRule",high,now,query,"Jun 1, 2025 @ 11:58:07.933",elastic,"3eb0b84c-ae7f-4243-99fa-90aa7de3243b",1,high,"Jun 1, 2025 @ 12:00:10.111",active,"https://sime.kb.us-central1.gcp.cloud.es.io/app/security/alerts/redirect/ce1c3948540023332a82858710644cdb59952a0528548e4cacf61aca850756a5?index=.alerts-security.alerts-default&timestamp=2025-06-01T06:30:10.068Z",ce1c3948540023332a82858710644cdb59952a0528548e4cacf61aca850756a5,open,default,"9.0.1",information,"Process Create:
+RuleName: -
+UtcTime: 2025-06-01 06:29:48.648
+ProcessGuid: {D31D9CB5-F35C-683B-1E05-000000001C02}
+ProcessId: 4816
+Image: C:\Windows\System32\curl.exe
+FileVersion: 8.9.1
+Description: The curl executable
+Product: The curl executable
+Company: curl, https://curl.se/
+OriginalFileName: curl.exe
+CommandLine: curl  http://attacker.com
+CurrentDirectory: C:\Users\Administrator\Downloads\PSTools\
+User: EC2AMAZ-DNAD815\Administrator
+LogonGuid: {D31D9CB5-AD53-683A-879B-070000000000}
+LogonId: 0x79b87
+TerminalSessionId: 2
+IntegrityLevel: High
+Hashes: SHA256=8B39C07EC671DAFB125BDC0E5FD4D51BC4A7D73E505C63C95F976698BBBD5699
+ParentProcessGuid: {D31D9CB5-F32B-683B-1B05-000000001C02}
+ParentProcessId: 3796
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: cmd.exe
+ParentUser: EC2AMAZ-DNAD815\Administrator","curl, http://attacker.com",2,"curl  http://attacker.com","curl  http://attacker.com","{D31D9CB5-F35C-683B-1E05-000000001C02}","C:\Windows\System32\curl.exe","-","C:\Windows\System32\curl.exe",8b39c07ec671dafb125bdc0e5fd4d51bc4a7d73e505c63c95f976698bbbd5699,"curl.exe","-","curl.exe","cmd.exe",1,"cmd.exe","cmd.exe","{D31D9CB5-F32B-683B-1B05-000000001C02}","C:\Windows\System32\cmd.exe","C:\Windows\System32\cmd.exe","cmd.exe","cmd.exe","3,796","curl, https://curl.se/","The curl executable","8.9.1","curl.exe","The curl executable","4,816","C:\Users\Administrator\Downloads\PSTools\","C:\Users\Administrator\Downloads\PSTools\",8b39c07ec671dafb125bdc0e5fd4d51bc4a7d73e505c63c95f976698bbbd5699,Administrator,0,AZcqLqaiBflWXAvE2D1Q,".ds-logs-windows.sysmon_operational-default-2025.05.24-000001",event,1,"Process creation",process,1,"Jun 1, 2025 @ 11:59:50.362","windows.sysmon_operational",event,windows,"Microsoft-Windows-Sysmon",start,"Jun 1, 2025 @ 11:59:48.648","process event with process curl.exe, parent process cmd.exe, by Administrator on ec2amaz-dnad815 created high alert Lateral Movement Via SMB or PSExec.","Jun 1, 2025 @ 11:58:07.933",elastic,"acess suspicious network share",true,"now-3m","3eb0b84c-ae7f-4243-99fa-90aa7de3243b",false,2m,"(empty)",100,"Lateral Movement Via SMB or PSExec",73,"9486f517-2c57-42f6-bab6-112fc545e41c",high,now,query,"Jun 1, 2025 @ 11:58:07.933",elastic,1,open,"EC2AMAZ-DNAD815","S-1-5-18",Administrator,Administrator,"Microsoft-Windows-Sysmon/Operational","EC2AMAZ-DNAD815","curl, https://curl.se/","The curl executable","8.9.1",High,"{D31D9CB5-AD53-683A-879B-070000000000}",0x79b87,"EC2AMAZ-DNAD815\Administrator","The curl executable",2,1,Info,"5,484","5,908","{5770385F-C22A-43E0-BF4C-06F5698FFBD9}","Microsoft-Windows-Sysmon",32393,"Process Create (rule: ProcessCreate)","NT AUTHORITY","S-1-5-18",SYSTEM,User,5
+"Jun 1, 2025 @ 11:59:49.416",AZcqLqaiBflWXAvE2D1R,"-",".ds-logs-windows.sysmon_operational-default-2025.05.24-000001","-","4e7a5236-77b4-42da-b966-a9756994e8ab","6a9b5271-0dd4-4d56-b783-dbc66c69a633","EC2AMAZ-DNAD815","EC2AMAZ-DNAD815",filebeat,"9.0.1",017934462408,"us-east-1c","ami-0db3480be03d8d01c","i-0ec62b6894849ab6e","t2.micro",aws,"us-east-1",EC2,EC2,"windows.sysmon_operational",default,logs,"8.17.0","6a9b5271-0dd4-4d56-b783-dbc66c69a633",false,"9.0.1","Process terminated",verified,process,5,"Jun 1, 2025 @ 11:59:50.365","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",event,windows,"Microsoft-Windows-Sysmon",end,"x86_64","EC2AMAZ-DNAD815","d31d9cb5-cf99-40b5-9e61-5ba44c93679a","fe80::7352:58a:a327:2047, 172.31.80.232","12-04-9E-9F-7F-A9","ec2amaz-dnad815","20348.3692",windows,"10.0.20348.3692 (WinBuild.160101.0800)","Windows Server 2022 Datacenter","Windows Server 2022 Datacenter",windows,windows,"10.0",winlog,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-",information,"Process terminated:
+RuleName: -
+UtcTime: 2025-06-01 06:29:49.416
+ProcessGuid: {D31D9CB5-F35C-683B-1E05-000000001C02}
+ProcessId: 4816
+Image: C:\Windows\System32\curl.exe
+User: EC2AMAZ-DNAD815\Administrator","-","-","-","-","{D31D9CB5-F35C-683B-1E05-000000001C02}","C:\Windows\System32\curl.exe","c:\windows\system32\curl.exe","C:\Windows\System32\curl.exe","-","curl.exe","curl.exe","curl.exe","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","4,816","-","-","-",Administrator,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","EC2AMAZ-DNAD815","S-1-5-18",Administrator,Administrator,"Microsoft-Windows-Sysmon/Operational","EC2AMAZ-DNAD815","-","-","-","-","-","-","-","-","-",5,Info,"5,484","5,908","{5770385F-C22A-43E0-BF4C-06F5698FFBD9}","Microsoft-Windows-Sysmon",32394,"Process terminated (rule: ProcessTerminate)","NT AUTHORITY","S-1-5-18",SYSTEM,User,3
+"Jun 1, 2025 @ 11:59:49.416",AZcqLqaiBflWXAvE2D1U,"-",".ds-logs-windows.sysmon_operational-default-2025.05.24-000001","-","4e7a5236-77b4-42da-b966-a9756994e8ab","6a9b5271-0dd4-4d56-b783-dbc66c69a633","EC2AMAZ-DNAD815","EC2AMAZ-DNAD815",filebeat,"9.0.1",017934462408,"us-east-1c","ami-0db3480be03d8d01c","i-0ec62b6894849ab6e","t2.micro",aws,"us-east-1",EC2,EC2,"windows.sysmon_operational",default,logs,"8.17.0","6a9b5271-0dd4-4d56-b783-dbc66c69a633",false,"9.0.1","Process terminated",verified,process,5,"Jun 1, 2025 @ 11:59:50.376","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",event,windows,"Microsoft-Windows-Sysmon",end,"x86_64","EC2AMAZ-DNAD815","d31d9cb5-cf99-40b5-9e61-5ba44c93679a","fe80::7352:58a:a327:2047, 172.31.80.232","12-04-9E-9F-7F-A9","ec2amaz-dnad815","20348.3692",windows,"10.0.20348.3692 (WinBuild.160101.0800)","Windows Server 2022 Datacenter","Windows Server 2022 Datacenter",windows,windows,"10.0",winlog,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-",information,"Process terminated:
+RuleName: -
+UtcTime: 2025-06-01 06:29:49.416
+ProcessGuid: {D31D9CB5-F35C-683B-1E05-000000001C02}
+ProcessId: 4816
+Image: C:\Windows\System32\curl.exe
+User: EC2AMAZ-DNAD815\Administrator","-","-","-","-","{D31D9CB5-F35C-683B-1E05-000000001C02}","C:\Windows\System32\curl.exe","c:\windows\system32\curl.exe","C:\Windows\System32\curl.exe","-","curl.exe","curl.exe","curl.exe","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","4,816","-","-","-",Administrator,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","EC2AMAZ-DNAD815","S-1-5-18",Administrator,Administrator,"Microsoft-Windows-Sysmon/Operational","EC2AMAZ-DNAD815","-","-","-","-","-","-","-","-","-",5,Info,"5,484","5,908","{5770385F-C22A-43E0-BF4C-06F5698FFBD9}","Microsoft-Windows-Sysmon",32394,"Process terminated (rule: ProcessTerminate)","NT AUTHORITY","S-1-5-18",SYSTEM,User,3
+"Jun 1, 2025 @ 11:59:48.648",AZcqLqaiBflWXAvE2D1Q,"-",".ds-logs-windows.sysmon_operational-default-2025.05.24-000001","-","4e7a5236-77b4-42da-b966-a9756994e8ab","6a9b5271-0dd4-4d56-b783-dbc66c69a633","EC2AMAZ-DNAD815","EC2AMAZ-DNAD815",filebeat,"9.0.1",017934462408,"us-east-1c","ami-0db3480be03d8d01c","i-0ec62b6894849ab6e","t2.micro",aws,"us-east-1",EC2,EC2,"windows.sysmon_operational",default,logs,"8.17.0","6a9b5271-0dd4-4d56-b783-dbc66c69a633",false,"9.0.1","Process creation",verified,process,1,"Jun 1, 2025 @ 11:59:50.362","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",event,windows,"Microsoft-Windows-Sysmon",start,"x86_64","EC2AMAZ-DNAD815","d31d9cb5-cf99-40b5-9e61-5ba44c93679a","fe80::7352:58a:a327:2047, 172.31.80.232","12-04-9E-9F-7F-A9","ec2amaz-dnad815","20348.3692",windows,"10.0.20348.3692 (WinBuild.160101.0800)","Windows Server 2022 Datacenter","Windows Server 2022 Datacenter",windows,windows,"10.0",winlog,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-",information,"Process Create:
+RuleName: -
+UtcTime: 2025-06-01 06:29:48.648
+ProcessGuid: {D31D9CB5-F35C-683B-1E05-000000001C02}
+ProcessId: 4816
+Image: C:\Windows\System32\curl.exe
+FileVersion: 8.9.1
+Description: The curl executable
+Product: The curl executable
+Company: curl, https://curl.se/
+OriginalFileName: curl.exe
+CommandLine: curl  http://attacker.com
+CurrentDirectory: C:\Users\Administrator\Downloads\PSTools\
+User: EC2AMAZ-DNAD815\Administrator
+LogonGuid: {D31D9CB5-AD53-683A-879B-070000000000}
+LogonId: 0x79b87
+TerminalSessionId: 2
+IntegrityLevel: High
+Hashes: SHA256=8B39C07EC671DAFB125BDC0E5FD4D51BC4A7D73E505C63C95F976698BBBD5699
+ParentProcessGuid: {D31D9CB5-F32B-683B-1B05-000000001C02}
+ParentProcessId: 3796
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: cmd.exe
+ParentUser: EC2AMAZ-DNAD815\Administrator","curl, http://attacker.com",2,"curl  http://attacker.com","curl  http://attacker.com","{D31D9CB5-F35C-683B-1E05-000000001C02}","C:\Windows\System32\curl.exe","c:\windows\system32\curl.exe","C:\Windows\System32\curl.exe",8b39c07ec671dafb125bdc0e5fd4d51bc4a7d73e505c63c95f976698bbbd5699,"curl.exe","curl.exe","curl.exe","cmd.exe",1,"cmd.exe","cmd.exe","{D31D9CB5-F32B-683B-1B05-000000001C02}","C:\Windows\System32\cmd.exe","C:\Windows\System32\cmd.exe","cmd.exe","cmd.exe","3,796","curl, https://curl.se/","The curl executable","8.9.1","curl.exe","The curl executable","4,816","C:\Users\Administrator\Downloads\PSTools\","C:\Users\Administrator\Downloads\PSTools\",8b39c07ec671dafb125bdc0e5fd4d51bc4a7d73e505c63c95f976698bbbd5699,Administrator,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","EC2AMAZ-DNAD815","S-1-5-18",Administrator,Administrator,"Microsoft-Windows-Sysmon/Operational","EC2AMAZ-DNAD815","curl, https://curl.se/","The curl executable","8.9.1",High,"{D31D9CB5-AD53-683A-879B-070000000000}",0x79b87,"EC2AMAZ-DNAD815\Administrator","The curl executable",2,1,Info,"5,484","5,908","{5770385F-C22A-43E0-BF4C-06F5698FFBD9}","Microsoft-Windows-Sysmon",32393,"Process Create (rule: ProcessCreate)","NT AUTHORITY","S-1-5-18",SYSTEM,User,5
+"Jun 1, 2025 @ 11:59:48.648",AZcqLqaiBflWXAvE2D1T,"-",".ds-logs-windows.sysmon_operational-default-2025.05.24-000001","-","4e7a5236-77b4-42da-b966-a9756994e8ab","6a9b5271-0dd4-4d56-b783-dbc66c69a633","EC2AMAZ-DNAD815","EC2AMAZ-DNAD815",filebeat,"9.0.1",017934462408,"us-east-1c","ami-0db3480be03d8d01c","i-0ec62b6894849ab6e","t2.micro",aws,"us-east-1",EC2,EC2,"windows.sysmon_operational",default,logs,"8.17.0","6a9b5271-0dd4-4d56-b783-dbc66c69a633",false,"9.0.1","Process creation",verified,process,1,"Jun 1, 2025 @ 11:59:50.375","windows.sysmon_operational","Jun 1, 2025 @ 11:59:57.000",event,windows,"Microsoft-Windows-Sysmon",start,"x86_64","EC2AMAZ-DNAD815","d31d9cb5-cf99-40b5-9e61-5ba44c93679a","fe80::7352:58a:a327:2047, 172.31.80.232","12-04-9E-9F-7F-A9","ec2amaz-dnad815","20348.3692",windows,"10.0.20348.3692 (WinBuild.160101.0800)","Windows Server 2022 Datacenter","Windows Server 2022 Datacenter",windows,windows,"10.0",winlog,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-",information,"Process Create:
+RuleName: -
+UtcTime: 2025-06-01 06:29:48.648
+ProcessGuid: {D31D9CB5-F35C-683B-1E05-000000001C02}
+ProcessId: 4816
+Image: C:\Windows\System32\curl.exe
+FileVersion: 8.9.1
+Description: The curl executable
+Product: The curl executable
+Company: curl, https://curl.se/
+OriginalFileName: curl.exe
+CommandLine: curl  http://attacker.com
+CurrentDirectory: C:\Users\Administrator\Downloads\PSTools\
+User: EC2AMAZ-DNAD815\Administrator
+LogonGuid: {D31D9CB5-AD53-683A-879B-070000000000}
+LogonId: 0x79b87
+TerminalSessionId: 2
+IntegrityLevel: High
+Hashes: SHA256=8B39C07EC671DAFB125BDC0E5FD4D51BC4A7D73E505C63C95F976698BBBD5699
+ParentProcessGuid: {D31D9CB5-F32B-683B-1B05-000000001C02}
+ParentProcessId: 3796
+ParentImage: C:\Windows\System32\cmd.exe
+ParentCommandLine: cmd.exe
+ParentUser: EC2AMAZ-DNAD815\Administrator","curl, http://attacker.com",2,"curl  http://attacker.com","curl  http://attacker.com","{D31D9CB5-F35C-683B-1E05-000000001C02}","C:\Windows\System32\curl.exe","c:\windows\system32\curl.exe","C:\Windows\System32\curl.exe",8b39c07ec671dafb125bdc0e5fd4d51bc4a7d73e505c63c95f976698bbbd5699,"curl.exe","curl.exe","curl.exe","cmd.exe",1,"cmd.exe","cmd.exe","{D31D9CB5-F32B-683B-1B05-000000001C02}","C:\Windows\System32\cmd.exe","C:\Windows\System32\cmd.exe","cmd.exe","cmd.exe","3,796","curl, https://curl.se/","The curl executable","8.9.1","curl.exe","The curl executable","4,816","C:\Users\Administrator\Downloads\PSTools\","C:\Users\Administrator\Downloads\PSTools\",8b39c07ec671dafb125bdc0e5fd4d51bc4a7d73e505c63c95f976698bbbd5699,Administrator,"-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","-","EC2AMAZ-DNAD815","S-1-5-18",Administrator,Administrator,"Microsoft-Windows-Sysmon/Operational","EC2AMAZ-DNAD815","curl, https://curl.se/","The curl executable","8.9.1",High,"{D31D9CB5-AD53-683A-879B-070000000000}",0x79b87,"EC2AMAZ-DNAD815\Administrator","The curl executable",2,1,Info,"5,484","5,908","{5770385F-C22A-43E0-BF4C-06F5698FFBD9}","Microsoft-Windows-Sysmon",32393,"Process Create (rule: ProcessCreate)","NT AUTHORITY","S-1-5-18",SYSTEM,User,5
